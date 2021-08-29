@@ -1,6 +1,6 @@
 # Introdução
 
-Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade de criar, editar ou remover seus artigos, outros usuários estão incapacidatos de remover artigos de outro usuários.
+Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade de criar, editar ou remover seus artigos, outros usuários estão incapacidatos de remover artigos de outros usuários.
 
 ## Instalação
 
