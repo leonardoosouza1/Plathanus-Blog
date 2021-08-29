@@ -4,13 +4,18 @@ Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade 
 
 ## Instalação
 
-### Clone os arquivos para sua maquína
+### Clone os arquivos para sua maquína.
     git clone https://github.com/Knyon1/Plathanus-Blog.git
     
-### Os arquivos devem ficar assim
+### Os arquivos devem ficar assim.
 ![image](https://user-images.githubusercontent.com/71739468/131248162-ae996da9-48ab-4f9e-92ac-8ab13951de83.png)
 
-### Instalando o servidor
+#### use o comando abaixo para entrar na nova pasta via terminal.
+    cd Plathanus-Blog-master
+
+Assim você esta dentro da pasta root do projeto.
+
+### Instalando o servidor.
     cd server
     npm install
     docker run -d -p 27017:27017 -p 28017:28017 tutum/mongodb
@@ -19,20 +24,19 @@ Executando esses comandos em seu terminal, você esta criando um servidor em Nod
 
 Ambos já estão configurados com as portas padrões, no arquivo .env é possivel alterá las e colocar de seu gosto.
 
-### Servidor NodeJS
+### Servidor NodeJS.
     https://localhost:5000
     
-### Banco de dados (MongoDB)
+### Banco de dados (MongoDB).
     https://localhost:27017
 
-#### Iniciando o servidor
+#### Iniciando o servidor.
 
-Agora basta usar o comando NPM RUN START ou NPM RUN DEV
+Agora basta usar o comando NPM RUN START ou NPM RUN DEV.
 
-### Instalando o client
+### Instalando o client.
 
-Se ainda estiver na pastar do servidor basta usar o comando
-#
+#### Se ainda estiver na pastar do servidor basta usar o comando.
     cd ..
     cd client
     npm install
@@ -41,15 +45,13 @@ Se ainda estiver na pastar do servidor basta usar o comando
     npm run start
     
   
-### Client
+### Client.
     https://localhost:3000
 
 
 
 #### Instalação concluída e o projeto já esta rodando!!!
 
- 
-        
 
 # Algumas imagens
 
