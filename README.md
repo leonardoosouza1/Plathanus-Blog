@@ -10,32 +10,48 @@ Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade 
 ### Os arquivos devem ficar assim
 ![image](https://user-images.githubusercontent.com/71739468/131248162-ae996da9-48ab-4f9e-92ac-8ab13951de83.png)
 
-#### Instalando o Server
+#### Instalando o servidor
     cd server
     npm install
     docker run -d -p 27017:27017 -p 28017:28017 tutum/mongodb
     
+Executando esses comandos em seu terminal, você esta criando um servidor em NodeJS, que se comunica com um banco de dados MongoDB, onde esta armazenado em um container pelo Docker.
+
+Ambos já estão configurados com as portas padrões
+
+### Servidor NodeJS
+    https://localhost:5000
     
-Executando esse comando em seu terminal você esta criando um servidor que se comunica com um banco de dados que esta armazenado em um container pelo Docker.
+### Banco de dados (MongoDB)
+    https://localhost:27017
 
+#### Iniciando o servidor
 
+Agora basta usar o comando NPM RUN START ou NPM RUN DEV
 
-#### 
+#### Instalamdo o client
 
-        
- 
-##### Após esses comando o servidor já esta instlado na sua maquína, agora basta inciar ele
+Se ainda estiver na pastar do servidor basta usar o comando
+#
+    cd ..
+    cd client
+    npm install
 
-##### Pode-se usar ambos comandos abaixo, NPM RUN DEV ira necessitar o nodemon, já o NPM RUN START ira usar node.
-    npm run dev
+#### Iniciando o client
     npm run start
+    
+  
+### Client
+    https://localhost:3000
 
 
+
+#### Instalação concluída e o projeto já esta rodando!!!
+
+ 
         
 
-    
-
-### Após clonar o repositório na sua maquína ( git clone https://github.com/Knyon1/Plathanus-Blog.git )
+# Algumas imagens
 
 
 ### Primeiro acesso
