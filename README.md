@@ -74,9 +74,9 @@ ________________________________________________________________________________
 
 ![alt text](https://i.imgur.com/kgsXKEY.png)
 ![alt text](https://i.imgur.com/qifChDk.png)
-#### Para editar um artigo bastar procura-lo e clicar em editar 
+#### Para editar um artigo, basta procura-lo e clicar em editar 
 
-![alt text](https://i.imgur.com/GePQqJn.pn)
+![alt text](https://i.imgur.com/GePQqJn.png)
 #### Edite e clique em enviar
 
 ![alt text](https://i.imgur.com/o0RgfLh.png)
