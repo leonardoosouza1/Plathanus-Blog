@@ -9,6 +9,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams, useHistory, Link } from "react-router-dom";
 import moment from "moment";
 
+import styled from "styled-components";
+
 import { getPost, getPostsBySearch } from "../../actions/posts";
 import CommentSection from "./CommentSection";
 import useStyles from "./styles";
@@ -44,6 +46,11 @@ const Post = () => {
 
   const recommendedPosts = posts.filter(({ _id }) => _id !== post._id);
 
+  const Break = styled.div`
+    width: 200px;
+    word-wrap: break-word;
+  `;
+
   return (
     <Paper style={{ padding: "20px", borderRadius: "15px" }} elevation={6}>
       <div className={classes.card}>
@@ -61,12 +68,14 @@ const Post = () => {
           <Typography variant="h3" component="h2">
             {post.title}
           </Typography>
-          <Typography
-            gutterBottom
-            variant="h6"
-            color="textSecondary"
-            component="h2"
-          ></Typography>
+          <Break>
+            <Typography
+              gutterBottom
+              variant="h6"
+              color="textSecondary"
+              component="h2"
+            ></Typography>
+          </Break>
           <Typography gutterBottom variant="body1" component="p">
             {post.message}
           </Typography>

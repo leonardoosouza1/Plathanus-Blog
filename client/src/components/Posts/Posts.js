@@ -15,9 +15,9 @@ const Posts = ({ setCurrentId }) => {
     <CircularProgress
       id="loading"
       style={{
-        width: "40%",
+        width: "25%",
         height: "auto",
-        margin: "60px",
+        margin: "90px",
       }}
     />
   ) : (

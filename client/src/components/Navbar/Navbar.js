@@ -34,10 +34,12 @@ const Navbar = () => {
     setUser(JSON.parse(localStorage.getItem("profile")));
   }, []);
 
+  function login() {}
+
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
       <Link to="/" className={classes.brandContainer}>
-        <h1>Plathanus Blog</h1>
+        <h1>Blog</h1>
       </Link>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
@@ -62,7 +64,12 @@ const Navbar = () => {
             </Button>
           </div>
         ) : (
-          <Button component={Link} to="/auth" variant="contained">
+          <Button
+            onClick={login}
+            component={Link}
+            to="/auth"
+            variant="contained"
+          >
             Sign In
           </Button>
         )}

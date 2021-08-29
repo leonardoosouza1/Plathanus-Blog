@@ -36,6 +36,12 @@ export default makeStyles((theme) => ({
       flexDirection: "column",
     },
   },
+
+  break: {
+    display: "flex",
+    wordWrap: "break-work",
+  },
+
   loadingPaper: {
     display: "flex",
     justifyContent: "center",
