@@ -1,6 +1,32 @@
-## Introdução
+# Introdução
 
 Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade de criar, editar ou remover seus artigos, outros usuários estão incapacidatos de remover artigos de outro usuários.
+
+## Instalação
+
+### Clone os arquivos para sua maquína
+    git clone https://github.com/Knyon1/Plathanus-Blog.git
+    
+### Os arquivos devem ficar assim
+![image](https://user-images.githubusercontent.com/71739468/131248162-ae996da9-48ab-4f9e-92ac-8ab13951de83.png)
+
+#### Server
+    cd server
+    npm install
+    
+#### Após esses comando o servidor já esta instlado na sua maquína, agora basta inciar ele
+
+##### 
+    npm run dev
+    npm run start
+
+
+        
+
+    
+
+### Após clonar o repositório na sua maquína ( git clone https://github.com/Knyon1/Plathanus-Blog.git )
+
 
 ### Primeiro acesso
 
