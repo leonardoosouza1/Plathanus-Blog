@@ -10,13 +10,23 @@ Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade 
 ### Os arquivos devem ficar assim
 ![image](https://user-images.githubusercontent.com/71739468/131248162-ae996da9-48ab-4f9e-92ac-8ab13951de83.png)
 
-#### Server
+#### Instalando o Server
     cd server
     npm install
+    docker run -d -p 27017:27017 -p 28017:28017 tutum/mongodb
     
-#### Após esses comando o servidor já esta instlado na sua maquína, agora basta inciar ele
+    
+Executando esse comando em seu terminal você esta criando um servidor que se comunica com um banco de dados que esta armazenado em um container pelo Docker.
 
-##### 
+
+
+#### 
+
+        
+ 
+##### Após esses comando o servidor já esta instlado na sua maquína, agora basta inciar ele
+
+##### Pode-se usar ambos comandos abaixo, NPM RUN DEV ira necessitar o nodemon, já o NPM RUN START ira usar node.
     npm run dev
     npm run start
 
