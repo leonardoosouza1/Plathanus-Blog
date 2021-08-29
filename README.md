@@ -22,11 +22,9 @@ ________________________________________________________________________________
 
 ![alt text](https://i.imgur.com/kgsXKEY.png)
 ![alt text](https://i.imgur.com/qifChDk.png)
-
 #### Para editar um artigo bastar procura-lo e clicar em editar 
 
 ![alt text](https://i.imgur.com/GePQqJn.pn)
-
 #### Edite e clique em enviar
 
 ![alt text](https://i.imgur.com/o0RgfLh.png)
@@ -34,24 +32,24 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________
 
-https://i.imgur.com/xtTe9Tk.png
-
 ### Acessando um artigo
 
 ![alt text](https://i.imgur.com/xtTe9Tk.png)
 
 #### Basta apenas escolher um e clicar nele que sera direcionado ao artigo postado
-![alt text](https://i.imgur.com/Bc71BDD.png)
+![alt text](https://i.imgur.com/Zlvyhco.png)
+
 ______________________________________________________________________________________________________
 
+#### Para deletar um artigo, basta escolher e clicar em deletar
 
 
 ### Tecnologias usadas
-    Front-end: React,Redux, @material-ui, Styled-components, axios e jwt
-    Back-end: Node, express, mongoose, bcryptjs, body-parse e cors
-    Database: MongoDB
-    Docker: Utilzado com container criado com MongoDB
-    GoogleAuth
+    Front-end: React,Redux, @material-ui, Styled-components, axios e jwt.
+    Back-end: Node, express, mongoose, bcryptjs, body-parse e cors.
+    Database: MongoDB.
+    Docker: Criando container para o MongoDB.
+    GoogleAuth.
     
 
 
