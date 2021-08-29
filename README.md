@@ -17,7 +17,6 @@ ________________________________________________________________________________
 
 ### Usuário autenticado e pronto para criar artigos.
 ![alt text](https://i.imgur.com/kgsXKEY.png)
-![alt text](https://i.imgur.com/2d4rRdT.png)
 ![alt text](https://i.imgur.com/qifChDk.png)
 
 #### Para editar um artigo bastar procura-lo e clicar em editar 
@@ -25,9 +24,7 @@ ________________________________________________________________________________
 
 #### Edite e clique em enviar
 ![alt text](https://i.imgur.com/o0RgfLh.png)
-![alt text](https://i.imgur.com/w8yjKGH.png)
-
-https://i.imgur.com/o0RgfLh.png
+![alt text](https://i.imgur.com/g6Pslw5.png)
 
 ______________________________________________________________________________________________________
 
