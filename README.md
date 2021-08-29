@@ -10,14 +10,14 @@ Projeto baseado em um blog de notícias, onde cada usuário tem disponibilidade 
 ### Os arquivos devem ficar assim
 ![image](https://user-images.githubusercontent.com/71739468/131248162-ae996da9-48ab-4f9e-92ac-8ab13951de83.png)
 
-#### Instalando o servidor
+### Instalando o servidor
     cd server
     npm install
     docker run -d -p 27017:27017 -p 28017:28017 tutum/mongodb
     
 Executando esses comandos em seu terminal, você esta criando um servidor em NodeJS, que se comunica com um banco de dados MongoDB, onde esta armazenado em um container pelo Docker.
 
-Ambos já estão configurados com as portas padrões
+Ambos já estão configurados com as portas padrões, no arquivo .env é possivel alterá las e colocar de seu gosto.
 
 ### Servidor NodeJS
     https://localhost:5000
@@ -29,7 +29,7 @@ Ambos já estão configurados com as portas padrões
 
 Agora basta usar o comando NPM RUN START ou NPM RUN DEV
 
-#### Instalamdo o client
+### Instalando o client
 
 Se ainda estiver na pastar do servidor basta usar o comando
 #
