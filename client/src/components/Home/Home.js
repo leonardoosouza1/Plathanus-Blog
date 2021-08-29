@@ -96,7 +96,14 @@ const Home = () => {
               </Paper>
             )}
           </Grid>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
+          <Grid
+            className={classes.loading}
+            item
+            xs={12}
+            sm={12}
+            md={12}
+            lg={12}
+          >
             <Posts setCurrentId={setCurrentId} />
           </Grid>
         </Grid>

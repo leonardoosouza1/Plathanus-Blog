@@ -14,7 +14,11 @@ const Posts = ({ setCurrentId }) => {
   return isLoading ? (
     <CircularProgress
       id="loading"
-      style={{ width: "50%", height: "auto", margin: "80px 0 80px 27.5%" }}
+      style={{
+        width: "40%",
+        height: "auto",
+        margin: "60px",
+      }}
     />
   ) : (
     <Grid

@@ -27,4 +27,9 @@ export default makeStyles((theme) => ({
       flexDirection: "column",
     },
   },
+  loading: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+  },
 }));
