@@ -87,10 +87,11 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________
 
 ### Acessando um artigo
+#### Basta apenas escolher um e clicar nele que sera direcionado ao artigo postado
 
 ![alt text](https://i.imgur.com/xtTe9Tk.png)
 
-#### Basta apenas escolher um e clicar nele que sera direcionado ao artigo postado
+
 ![alt text](https://i.imgur.com/Zlvyhco.png)
 
 ______________________________________________________________________________________________________
